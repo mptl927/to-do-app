@@ -1,0 +1,57 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(isyana.ttf);
+}
+@font-face {
+  font-family: secondFont;
+  src: url(quicksand.ttf);
+}
+h1 {
+  color:silver;
+  font-style: italic;
+  text-align: center;
+  font-family: myFirstFont;
+  font-size: 10rem;
+  opacity: 75%;
+
+}
+form {
+  color:indigo;
+  font-size: 1.5em;
+  font-weight: lighter;
+  font-family: secondFont;
+  font-weight: bolder;
+  padding-left: 30px;
+}
+button {
+  color:white;
+  background: slateblue;
+  padding: 6px;
+  font-family: secondFont;
+  font-size: .75em;
+  font-weight: 500;
+  width: 100px;
+}
+header{
+  background: url(hero-image.jpg);
+  margin:0px;
+}
+#toDoList {
+  color:indigo;
+  font-family: secondFont;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#newToDoText {
+  width: 1000px;
+  padding: 5px;
+}
+@media  screen and (max-width:900px) {
+  header.mdl-layout__header {
+    display: flex;
+  }
+}
+body {
+  background-color: lavender;
+}
